@@ -1,0 +1,108 @@
+@import url(../reindeer/styles.css);
+
+/*======================================================*/
+/*Styles for titlePanel*/
+.v-label-titlePanel
+{
+    color: white;
+    font-weight: bold;
+    font-family: Baskerville Old Face;
+    font-size: 36px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height:1;
+}
+.v-panel-content-titlePanel
+{
+    background: #000000;
+}
+.v-panel-content-titlePanel > div 
+{   
+    background: #000000;/*override Reindeer panel background color*/
+}
+.v-table-titlePanel
+{
+    border-color: #000000;
+    background: #000000;
+    height: 60px;
+    width: 270px;
+}
+.v-table-cell-content-titlePanel
+{
+    border-right-color: #000000;
+}
+.v-table-row-titlePanel
+{
+    background: #000000;
+    color: white;
+}
+.v-table-titlePanel .v-button-caption,
+.v-table-titlePanel .v-link a:link span,
+.v-table-titlePanel .v-link a:visited span
+{ 
+    color: white;
+    font-weight: bold;
+}
+.v-table-titlePanel .v-button-caption:hover,
+.v-table-titlePanel .v-link a:hover span
+{ 
+    color: #969696;
+    font-weight: bold;
+    font-style: italic;
+}
+/*===========================================================*/
+
+
+/*============================================================*/
+/*Styles for mainTabSheet*/
+.v-tabsheet-tabitemcell-mainTabSheet .v-captiontext
+{
+    color: #000000;
+}
+/*==============================================================*/
+
+/*============================================================*/
+/*Styles for option group*/
+.v-select-optiongroup-dynamicOptionGroup .v-select-option
+{
+    float: left;
+    width: 250px;
+}
+.v-select-optiongroup-dynamicOptionGroup
+{
+    width: 1000px;/*multiple of individual items, provides four columns*/
+}
+/*==============================================================*/
+
+/*=================================================================*/
+/*Styles for components on tabsheets*/
+.v-app-tabsheet input
+{
+    font-weight: bold;
+    text-align: left;
+}
+.v-textarea
+{
+    overflow: auto; /*IE thing for displaying scrollbars only when needed */
+}
+/*==================================================================*/
+
+/*==================================================================*/
+/*Style for tray notification - just adds close img*/
+.v-Notification-tray 
+{
+
+        margin: 0 5px 5px 0;
+        background: #3b3c3e url(img/error-close.png) no-repeat right top;
+        border: 2px solid #585b5c;
+        padding: 0.8em 0.9em;
+}
+/*====================================================================*/
+
+/*==================================================================*/
+/*Style for tray notification - just adds close img*/
+.v-verticallayout-workQueueStatus .v-verticallayout-spacing-on 
+{
+    padding-top: 50px;
+}
+/*====================================================================*/
